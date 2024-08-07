@@ -1,0 +1,138 @@
+{
+    "title": "CALLRAIL",
+    "selectorAttribute": "CSS Element - JSON script based",
+    "timeout": 20000,
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1335,
+            "height": 910,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://app.callrail.com/lead-center/a/876622202/agent-tool/dialer/call?company_id=804301273",
+                    "title": "Agent View | Lead Center"
+                }
+            ],
+            "url": "https://app.callrail.com/lead-center/a/876622202/agent-tool/dialer/call?company_id=804301273"
+        },
+        {
+            "type": "click",
+            "timeout": 10000,
+            "target": "main",
+            "selectors": [
+                "lc-softphone input",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-softphone/div/div/lc-outbound-dialer/div[2]/div/lc-external-dialer-form/form/div[2]/div/input",
+                "pierce/lc-softphone input",
+                "aria/Phone Number"
+            ],
+            "offsetX": 98.015625,
+            "offsetY": 37.0078125
+        },
+        {
+            "type": "change",
+            "timeout": 10000,
+            "target": "main",
+            "selectors": [
+                "lc-softphone input",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-softphone/div/div/lc-outbound-dialer/div[2]/div/lc-external-dialer-form/form/div[2]/div/input",
+                "pierce/lc-softphone input",
+                "aria/Phone Number"
+            ],
+            "value": "(305) 304-8596"
+        },
+        {
+            "type": "click",
+            "timeout": 20000,
+            "target": "main",
+            "selectors": [
+                "lc-place-call-button > button",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-softphone/div/div/lc-outbound-dialer/div[2]/div/lc-external-dialer-form/form/lc-place-call-button/button",
+                "pierce/lc-place-call-button > button",
+                "aria/Place Call",
+                "text/Place Call"
+            ],
+            "offsetX": 173.015625,
+            "offsetY": 25.03125,
+            "duration": 10000
+        },
+        {
+            "type": "click",
+            "timeout": 20000,
+            "target": "main",
+            "selectors": [
+                "button.btn-danger > i",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-call-status/div/button[2]/i",
+                "pierce/button.btn-danger > i",
+                "aria/[role=\"generic\"]"
+            ],
+            "offsetX": 9.5390625,
+            "offsetY": 5.2890625,
+            "duration": 10000,
+            "deviceType": "mouse"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "header.agent-availability > button",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-inbox/div/header[1]/button",
+                "pierce/header.agent-availability > button",
+                "aria/ Dialer",
+                "text/Dialer"
+            ],
+            "offsetX": 56.8828125,
+            "offsetY": 21.515625,
+            "deviceType": "mouse",
+            "button": "primary"
+        },
+        {
+            "type": "change",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "lc-softphone input",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-softphone/div/div/lc-outbound-dialer/div[2]/div/lc-external-dialer-form/form/div[2]/div/input",
+                "pierce/lc-softphone input",
+                "aria/Phone Number"
+            ],
+            "value": "(305) 628-4458"
+        },
+        {
+            "type": "click",
+            "timeout": 30000,
+            "target": "main",
+            "selectors": [
+                "lc-place-call-button > button",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-softphone/div/div/lc-outbound-dialer/div[2]/div/lc-external-dialer-form/form/lc-place-call-button/button",
+                "pierce/lc-place-call-button > button",
+                "aria/Place Call",
+                "text/Place Call"
+            ],
+            "offsetX": 241.515625,
+            "offsetY": 8.03125,
+            "duration": 5000
+        },
+        {
+            "type": "click",
+            "timeout": 20000,
+            "target": "main",
+            "selectors": [
+                "button.btn-danger > i.cls",
+                "xpath//html/body/lc-root/lc-agent-tool-root/lc-layout-app-layout/div[2]/div/lc-call-status/div/button[2]/i",
+                "pierce/button.btn-danger > i"
+            ],
+            "offsetX": 9.5390625,
+            "offsetY": 5.2890625,
+            "duration": 10000,
+            "deviceType": "mouse"
+        }
+    ]
+}
