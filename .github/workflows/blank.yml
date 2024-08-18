@@ -18,19 +18,786 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: chrome os
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          {
+    "title": "OLJ_JSON-1thru7",
+    "selectorAttribute": "CSS_RECORDING-JSON_TEST",
+    "timeout": 7000,
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/jobseekers/job/In-House-Sales-Assistant-1209849",
+                    "title": "In-House Sales Assistant"
+                }
+            ],
+            "url": "https://www.onlinejobs.ph/jobseekers/job/In-House-Sales-Assistant-1209849"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 162.5390625,
+            "offsetY": 36.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "In-House Sales Assistant"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "Hello Tori Sells Tennessee, I hope this email finds you doing well. I am sending this in reference to the job opening for: In-House Sales Assistant. I believe I am a great fit for the position. Please find my updated resume/cv in the ff URL: https://drive.google.com/file/d/18Hh6cM0bWC4ZiVbww4cE7ntBIcWQrVnv/view?usp=sharing , I look forward to being in touch with you soon! Thank you, Justin S."
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 159.5390625,
+            "offsetY": 30.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "section.pt-lg-0 button"
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 180.5390625,
+            "offsetY": 30.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 144.5390625,
+            "offsetY": 39.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 145.5390625,
+            "offsetY": 24.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 180.5390625,
+            "offsetY": 30.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        },
+        {
+            "type": "setViewport",
+            "width": 1498,
+            "height": 674,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "0",
+                    "title": "0"
+                }
+            ],
+            "url": "0"
+        },
+        {
+            "type": "click",
+            "timeout": 5000,
+            "target": "main",
+            "selectors": [
+                "div > div > div > div.col-12 button",
+                "xpath//html/body/section[1]/div/div/div/div[2]/form/button",
+                "pierce/div > div > div > div.col-12 button",
+                "aria/APPLY FOR THIS JOB",
+                "text/APPLY FOR THIS"
+            ],
+            "offsetX": 180.5390625,
+            "offsetY": 30.8671875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#subject"
+                ]
+            ],
+            "offsetX": 112.44442749023438,
+            "offsetY": 17.874969482421875
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#subject"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "#message",
+                "xpath///*[@id=\"message\"]",
+                "pierce/#message"
+            ],
+            "offsetX": 490.4444274902344,
+            "offsetY": 28.222198486328125
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                "#message"
+            ],
+            "value": "0"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "offsetX": 59.444427490234375,
+            "offsetY": 16.423583984375
+        },
+        {
+            "type": "change",
+            "target": "main",
+            "selectors": [
+                [
+                    "div.mb-3 input"
+                ]
+            ],
+            "value": "1"
+        },
+        {
+            "type": "click",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://www.onlinejobs.ph/apply",
+                    "title": "Contact | OnlineJobs.ph"
+                }
+            ],
+            "target": "main",
+            "selectors": [
+                [
+                    "section.pt-lg-0 button"
+                ]
+            ],
+            "offsetX": 57.444427490234375,
+            "offsetY": 13.44439697265625
+        }
+    ]
+}
