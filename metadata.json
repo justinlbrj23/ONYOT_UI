@@ -1,0 +1,5 @@
+{
+  "name": "TeleFlow AI - Telegram Interaction Automator",
+  "description": "A sophisticated visual designer and AI-powered simulation tool for automating Telegram interactions. Design complex conversation flows, test them with Gemini-powered logic, and export production-ready code.",
+  "requestFramePermissions": []
+}
